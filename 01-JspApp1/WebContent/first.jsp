@@ -4,11 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>03-JspApp2</title>
 </head>
 <body>
-
-
 <h1 style="color:red;text-align:center"> Wel Come to Java Server Pages Jsp </h1>
  <br>
  <br>
@@ -18,11 +16,16 @@
 		    java.util.Date d = new java.util.Date();
 			  out.println(d);
    %>
+           <br><br>
      
 	 End of Jsp 
- 
-	         by Md Shamshad Alam
-			            My First Program JspApp1 
-
+                <br><br>
+                
+	         by Md Shamshad Alam 
+	         
+	                  <br><br>
+	                  
+			            My First Program JspApp2 
+			  
 </body>
 </html>
