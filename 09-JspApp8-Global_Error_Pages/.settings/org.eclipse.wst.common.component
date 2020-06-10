@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="08-JspApp7-Error_Pages">
+                
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+                
+        <property name="java-output-path" value="/08-JspApp7-Error_Pages/build/classes"/>
+        <property name="context-root" value="09-JspApp8-Global_Error_Pages"/>
+            
+    </wb-module>
+    
+</project-modules>
