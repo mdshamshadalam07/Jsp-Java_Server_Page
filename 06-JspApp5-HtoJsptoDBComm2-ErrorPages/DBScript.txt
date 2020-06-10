@@ -1,0 +1,24 @@
+
+SQL> create table product(pid number(10)primary key,pname varchar2(20),price float(20),qty number(20));
+
+Table created.
+
+SQL> commit;
+
+SQL> desc product;
+ Name                                                  Null?    Type
+ ----------------------------------------------------- -------- -------------------------------
+ PID                                                   NOT NULL NUMBER(10)
+ PNAME                                                          VARCHAR2(20)
+ PRICE                                                          FLOAT(20)
+ QTY                                                            NUMBER(20)
+
+
+SQL>create sequence productid_seq1 start with 1 increment by 1
+
+Sequence created.
+
+SQL> commit;
+
+Commit complete.
+
