@@ -1,3 +1,16 @@
+<%! public void method1(){
+	try {
+
+	      Class.forName("java.util.Date");
+	      System.out.println("Class Loaded");
+	}
+	
+	catch(Exception e) {
+		e.printStackTrace();
+	}
+}
+	%>
+
 <%! public String generateWishMessage(String user) {
 	    java.util.Calendar calendar=null;
 		int hour=0;
@@ -29,3 +42,9 @@
           
      <br>
 	  Wish Message is ::: <%=generateWishMessage(name)%>
+	  
+	  <% 
+	      Class.forName("java.util.Date");
+	      System.out.println("Class Loaded");
+	      method1();
+	  %>
